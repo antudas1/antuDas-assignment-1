@@ -48,6 +48,7 @@ body{
 .logos{
     display: flex;
     justify-content: center;
+    margin-bottom: 0px;
 }
 .logo{
     width: 1110px;
@@ -57,7 +58,64 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0px;
 }
 .logo-name img{
     margin: 34px, 60px;
+}
+/* -------------------
+        items
+-------------------- */
+.tittle{
+    margin-bottom: 60px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.pic{
+    width: 300px;
+    height: 256px;
+    padding: 17px 15px;
+}
+.items{
+    width: 1047px;
+    height: 1662px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(236, 233, 228);
+    justify-items: center;
+}
+.item{
+    width: 329px;
+    height: 476px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(59, 46, 46);
+    transition: 1s;
+}
+.item-tittle{
+    margin-left: 14px;
+}
+.item-names{
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.rate{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.item-rate{
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.item-des{
+    font-size: 14px;
+    margin-top: 0px;
+}
+.item:hover{
+    transform: scale(1.2);
+
 }
