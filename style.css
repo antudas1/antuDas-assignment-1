@@ -117,6 +117,10 @@ body{
 .item-tittle{
     margin-left: 14px;
 }
+.fas.fa-star{
+    color: rgb(240, 206, 12);
+}
+
 .item-names{
     margin-top: 16px;
     margin-bottom: 0px;
@@ -137,6 +141,11 @@ body{
     transform: scale(1.2);
 
 }
+.see{
+    text-align:center;
+    color: white;
+}
+
 /*-------------------
          servesie
 --------------------*/
