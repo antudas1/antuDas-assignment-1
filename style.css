@@ -209,6 +209,7 @@ body{
 .copy h5{
     margin: 0px;
 }
+
 @media (max-width: 768px) {
 
     .items{
@@ -217,15 +218,16 @@ body{
         width: 100%;
         grid-row-gap: 20px;
    }
+     .service{
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+.photo{
+    width: 100%;
+}
+
 
 }
-  .service{
-      grid-template-columns: repeat(1, 1fr);
-      width: 100%;
-  }
-  .photo{
-      width: 100%;
-  }
 
 
     
